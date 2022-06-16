@@ -1,3 +1,5 @@
+package basesJava;
+
 import java.util.Scanner;
 public class coursJava2 {
     public static void main(String[] args) {
@@ -72,7 +74,7 @@ public class coursJava2 {
         //declaration par inference
         //java va deduire le type de la variable
         //et prendre le plus gros stockage
-        var pays="France";
+        String pays="France";
 
         // constante : Une fois declaree la valeur ne peut plus changer
         final double g=9.8;

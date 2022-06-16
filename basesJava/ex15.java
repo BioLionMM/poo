@@ -1,3 +1,5 @@
+package basesJava;
+
 import java.util.Scanner;
 
 public class ex15 {
@@ -17,7 +19,7 @@ public class ex15 {
         T3 : [ 17, 18, 46 ]
 
         S = 6+15+39+21+33+12+18 = 144*/
-        var input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Combien d'elements dans T1?");
         int tailleT1=input.nextInt();

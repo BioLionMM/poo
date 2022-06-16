@@ -1,6 +1,6 @@
 package poo;
 
-import java.util.Scanner;
+import poo.patient.Patient;
 
 public class Main {
     public static void main(String[] args) {
@@ -92,7 +92,7 @@ public class Main {
 
 
 //      Ajout d'un constructeur
-        System.out.println("***********");
+        /*System.out.println("***********");
         System.out.println("**Objet 1**");
         System.out.println("************\n");
         Rectangle3 terrain=new Rectangle3(500,350);
@@ -102,7 +102,7 @@ public class Main {
         System.out.println("La largeur : "+terrain.getLargeur());
 
         System.out.println("Etat de l'objet après avoir fourni des " +
-                "valeur\n==========================");
+                "valeur\n==========================");*/
 //        terrain.setLongueur(500);
 //        terrain.setLargeur(350);
 //        System.out.println("La longueur : "+terrain.getLongueur());
@@ -110,6 +110,8 @@ public class Main {
 //        System.out.println("Surface : "+terrain.calculDeLaSurface());
 //        System.out.println("Perimète : "+terrain.calculDuPerimetre());
 
+        /*Patient patientA=new Patient("patient A",50,1.20f);
+        System.out.printf("L'IMC du patient %s est : %f", patientA.getID(),patientA.calculeIMC());*/
     }
 
 }

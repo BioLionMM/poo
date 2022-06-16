@@ -1,3 +1,5 @@
+package basesJava;
+
 import java.util.Scanner;
 
 
@@ -41,9 +43,9 @@ public class boucles {
         //table multiplication
 
         System.out.println("Table multiplication\n========================");
-        var input=new Scanner(System.in);
+        Scanner input=new Scanner(System.in);
         System.out.print("Entrer le nombre dont vous voulez voir la table de multiplication : ");
-        var nombre=input.nextInt();
+        int nombre=input.nextInt();
         for(int i=1;i<=12;i++){
 //            System.out.println(nombre+" x "+i+" = "+(i*nombre));
             System.out.printf("%d x %d = %d\n",nombre,i,(nombre*i));
@@ -51,12 +53,12 @@ public class boucles {
         //        Table de multplication version 2
         System.out.println("Table multiplication V2\n========================");
         System.out.print("Entrer le nombre dont vous voulez voir la table de multiplication : ");
-        var nombre2=input.nextInt();
+        int nombre2=input.nextInt();
         System.out.print("Debut : ");
-        var nombreDebut=input.nextInt();
+        int nombreDebut=input.nextInt();
 
         System.out.print("Fin : ");
-        var nombreFin=input.nextInt();
+        int nombreFin=input.nextInt();
 
 
         for(int i=nombreDebut;i<=nombreFin;i +=1){

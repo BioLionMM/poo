@@ -1,9 +1,11 @@
+package basesJava;
+
 import java.util.Scanner;
 
 public class bestPracticeCodePin {
     public static void main(String[] args) {
-        var input = new Scanner(System.in);
-        var codePIN="";
+        Scanner input = new Scanner(System.in);
+        String codePIN="";
         System.out.println("Veuillez definir un code PIN a 4 caracteres : ");
         while (true){
             System.out.print("Code PIN : ");

@@ -11,7 +11,7 @@ public class ex16 {
         Ex : tableau saisi à partir du clavier : 12,45,6,7,12,23,33,6,22,3,6
          ->Entrer un nombre à rechercher : 6
         ->6 existe et se retrouve 3 fois dans le tableau*/
-        var input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Combien d'elements dans le tableau?");
         int taille = input.nextInt();

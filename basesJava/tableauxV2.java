@@ -1,11 +1,12 @@
+package basesJava;
 
 import java.util.Scanner;
 
 public class tableauxV2 {
     public static void main(String[] args) {
-        var input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("Combien de notes voulez-vous inserer?");
-        var notesAInserer=input.nextInt();//7
+        int notesAInserer=input.nextInt();//7
 
         float[] notesMath=new float[notesAInserer];
 
